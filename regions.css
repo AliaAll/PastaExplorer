@@ -1,0 +1,48 @@
+@media only screen and (min-width: 700px) {
+    path{
+        transform: scale(1.5,1.5);
+        
+    }
+    #map{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.container{
+    display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+body {
+    background-image: url('./pastina.jpg');
+    background-repeat: repeat;
+    background-size:cover;
+  }
+  .btn-primary{
+    background-color: #B18011;
+  }
+.btn-primary:hover{
+    background-color: #3B8200;
+  }
+  
+  .btn-secondary{
+    background-color: #DCB10F;
+  }
+  .btn-secondary:hover{
+    background-color: #3B8200;
+  }
+  .card{
+    border-color:#C13C17;
+    border-width: 10px;
+ 
+  } 
+.photo{
+    display: flex;
+  justify-content: center;
+}
+.video{
+    display: flex;
+  justify-content: center;
+  margin: 20px;
+}
