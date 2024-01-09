@@ -46,7 +46,7 @@ var hoverStyle = {
 }
 
 function direct(regionName){
-  location.href = regionName+'.html';
+  location.href = regionName.toLowerCase() +'.html';
 }
 
 
