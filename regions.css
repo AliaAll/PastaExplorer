@@ -41,6 +41,27 @@ body {
     display: flex;
   justify-content: center;
 }
+
+div.list{
+    text-align: center;
+  }
+
+ul.bullets{
+    display: inline-block;
+    text-align: left;
+    color: #435ee0;
+  }
+
+ .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link{
+    text-align: center;
+  }
+
 .video{
     display: flex;
   justify-content: center;
