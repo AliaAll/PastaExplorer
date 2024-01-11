@@ -52,11 +52,12 @@ ul.bullets{
     color: #435ee0;
   }
 
- .image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.container img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+
+} 
 
   .link{
     text-align: center;
